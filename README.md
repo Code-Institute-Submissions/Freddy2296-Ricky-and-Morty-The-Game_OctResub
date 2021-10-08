@@ -72,3 +72,85 @@ images.
 * Photoshop was used to create the logo, resizing images and editing photos for the website.
 ## Balsamiq:
 * Balsamiq was used to create the wireframes during the design process.
+
+# Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* W3C Markup Validator - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffreddy2296.github.io%2FRick-and-Morty-Memory-Game-%2F)
+
+
+* W3C CSS Validator -  [View](http://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Ffreddy2296.github.io%2FRick-and-Morty-Memory-Game-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
+* JavaScript Validator -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-3f71d3c2-8641-461b-96c3-eb23df54ef99)
+# Testing User Stories from User Experience (UX) Section
+# First Time Visitor Goals
+  i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game it self .
+    a. Upon entering the site, I immedately see the green portals and the Header of the game so I know right away it's a memory game. [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-56f1a562-265d-4fba-9cfb-55543e3590cd)
+
+    b. The main point is made by the title that it is a game and i can start playing right away and as soon I click I can play.
+
+
+    c. The user has the option to start playing right away without a timer or rules simply match to cards and proceed till you 
+
+
+    find all of them.
+      
+
+   ii. As a First Time Visitor, I want to be able to easily understand the game and the purpose of it.
+     a. As you enter the site you know right away its a memory game the title itself states that so no worries [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-de2a795a-f3b0-457e-b6aa-f91fb3171278)
+
+
+     b. As you start to play the game you start to notice that once you match a card with another one with the same picture  it disappears that's how you know you have solved one part and can proceed to solved the next one.
+
+
+     c. As any memory game you know it's simple once you clicked on a card and it reveals which one it is all you have to do 
+     is remember where it was and once you find a similar one go back to it and match the cards.
+    
+     
+     iii. As a First Time Visitor, I want to be to win and know how to make it easier for next time 
+        a. As you continue to play game you start to understand it more and learn the were most of the same card are 
+
+
+        b. It gets simple once you remember were each card is but after you win the cards get reshuffle to so you get challenged.
+
+
+        c. Winning gets easier the more you play and learn the game so winning will be more likely if you continue playing
+
+# Returning Visitor Goals
+   i. As a Returning Visitor, I want to find new characters ,  [View screenshot](https://share.bublup.com/ui/landing_page?item_id=001-i-c0d992d2-768d-4d57-b9d3-49cde77e47c2)
+
+    a. These will clear be annouced on the top of the page  with an updated post.
+    b. They will be noticed right away when you start playing the game. 
+
+    ii. As a Returning Visitor, I want to see more challenge and actual score board.
+
+       a. There was more challenges in game the game got more hard to remember more shuffles. 
+       b. There was a score board at on top of the page and it helps understand more and makes the game more fun.
+       c. By add the score board the game was made more competive so you and your friends can keep tabs on who is pulling head
+       and who had a better score.
+        
+
+
+
+# Frequent User Goals
+* As a Frequent User, I want to know how the game work, how it runs and why it's build the way it is.
+
+
+     a. The user would get to understand that the game is a memory game there fore it is build to challenge you.
+ 
+* As a Frequent User, I want to be able to get scores to go one on one with my friends. 
+
+
+     a.The user would have the score panal to rely on that information to keep score against others.
+ 
+
+* As a Frequent User, I want to know where the idea came fromm for the game.
+
+
+     a. The user would understand by playing the game that the game is based of the tv series Rick and Morty.
+ 
+## Further Testing
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone11 & iPhoneX.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
