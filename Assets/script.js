@@ -223,4 +223,27 @@ function moveCounter(){
         
     }
   }
-  
+
+  function startGame (){
+    cards = shuffle(cards); 
+    score.innerHTML = "SCORE: 0"; 
+    // remove all existing classes from each card
+   for (var i = 0; i < cards.length; i++){
+       deck.innerHTML = "";
+       [].forEach.call(cards, function(item) {
+           deck.appendChild(item);
+       });
+       cards[i].classList.remove("show", "open", "match", "disabled");
+      }
+          
+  // reset moves
+  moves = 0;
+  matchs = 0;
+  intfailed = 0;
+  ptotal = 0;
+  counter.innerHTML = moves;
+ //reset timer
+ var timer = document.querySelector(".timer");
+ timer.innerHTML = "0 mins 0 secs";
+
+} 
