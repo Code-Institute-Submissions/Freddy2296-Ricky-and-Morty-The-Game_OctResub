@@ -40,8 +40,8 @@ the background of the card and once you click on it you get the image of the cha
 images.
 
 ### Wireframes
-* Home Page Wireframe - [View](https://share.bublup.com/ui/landing_page?item_id=001-i-c40153a3-05a3-4489-ac83-f08a0a383e5c)
-* Mobile Wireframe -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-921aae19-155b-428b-991e-0c6fde63a9b8)
+* Home Page Wireframe - [View](https://dujeb9m.sharing.bublup.com/ui/landing_page?item_id=001-i-c90b8b09-56d6-4ff3-b9d8-6807daab5966)
+* Mobile Wireframe -  [View](https://dujeb9m.sharing.bublup.com/ui/landing_page?item_id=001-i-70722e94-19b9-429d-9247-2e713b913e46)
 
 
 
