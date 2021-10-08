@@ -54,3 +54,21 @@ images.
 * CSS3
 * Javascript
 
+# Frameworks, Libraries & Programs Used
+* Bootstrap 4.4.1:
+* Bootstrap was used to assist with the responsiveness and styling of the website.
+* Hover.css:
+* Javascript 
+
+## Font Awesome:
+* Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+## Git :
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+## GitHub:
+* GitHub is used to store the projects code after being pushed from Git.
+## Photoshop:
+* Photoshop was used to create the logo, resizing images and editing photos for the website.
+## Balsamiq:
+* Balsamiq was used to create the wireframes during the design process.
