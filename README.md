@@ -188,6 +188,7 @@ The site was also audited with Chrome Dev Tools' Lighthouse, with no throttling,
     card.dataset.name = name;
   * for example my var is defined but it comes out undefined in the java validator 
   * Other then that everything should work just fine.
+  * On mobile in tends to be more on another angle then desktop but still works fine
 
 
 
@@ -215,9 +216,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 * Open Git Bash
 * Change the current working directory to the location where you want the cloned directory to be made.
 * Type git clone, and then paste the URL you copied in Step 3.
-$ git clone - [view here](https://freddy2296.github.io/Ricky-and-Morty-The-Game/)
+$ git clone - https://freddy2296.github.io/Ricky-and-Morty-The-Game/
 * Press Enter. Your local clone will be created.
-$ git clone - [view here](https://freddy2296.github.io/Ricky-and-Morty-The-Game/)
+$ git clone -https://freddy2296.github.io/Ricky-and-Morty-The-Game/
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
