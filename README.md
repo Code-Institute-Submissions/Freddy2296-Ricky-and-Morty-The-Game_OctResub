@@ -26,6 +26,12 @@ I just wanted to create a game I can enjoy myself and share with people with who
 *  As a Frequent User, I want to see if any new characthers have been added.
 *  As a Frequent User, I want to see if any design change have been made.
 
+This site was built on the basis of ideas from initial wireframes created in Adobe XD and exported image files for these can be seen below. These image files as well as the XD project file can be found in the main project folder:
+
+![wireframe prototype 1](assets/register_page.png)
+
+![wireframe prototype 1](assets/home_page.png)
+
 ## Design 
 
 ### Colour Scheme
