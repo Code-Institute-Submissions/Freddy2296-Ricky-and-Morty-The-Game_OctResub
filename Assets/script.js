@@ -246,4 +246,17 @@ function moveCounter(){
  var timer = document.querySelector(".timer");
  timer.innerHTML = "0 mins 0 secs";
 
-} 
+}
+
+function endGame(){
+    if (confirm('CONGRATULATIONS! YOU WIN!! \nSCORE TOTAL='+ptotal+'\nDo you want to play again?')) {
+      // start Again and refresh
+      location.reload(true);
+    } else {
+      // Do nothing!
+    }
+     
+   }
+  
+  
+  
