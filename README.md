@@ -83,12 +83,26 @@ images.
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+This project was developed incrementally with continuous use of console.log statement in JavaScript and the console.log () to repeatedly check the changes made in the application and to ensure all changes to source code were providing the desired outcome in the browser. The site was build using Google Chrome browser (version 74) and then later tested in other browsers; FireFox (version 66) and Edge (version 42).
+
+This project was tested for responsiveness using the Chrome Developer Tools mobile device simulator. It was also viewed on physical Samsung Galaxy A5 (2017) mobile device to ensure good responsive behaviour. The site was also tested in Mozilla Firefox (version 66) and Microsoft Edge (version 42) browsers to ensure appearance and functionality of the site was as expected across all 3 of these browsers.
+
+
 * W3C Markup Validator - [View](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffreddy2296.github.io%2FRick-and-Morty-Memory-Game-%2F)
 
 
 * W3C CSS Validator -  [View](http://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Ffreddy2296.github.io%2FRick-and-Morty-Memory-Game-%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 * JavaScript Validator -  [View](https://share.bublup.com/ui/landing_page?item_id=001-i-3f71d3c2-8641-461b-96c3-eb23df54ef99)
+
+ Various forms and levels of HTML validation has been used on form inputs to verify inputs to each form field. These forms were tested while being developed to ensure that the validation was having the desired effect and providing the desired outcome.
+
+The site was also audited with Chrome Dev Tools' Lighthouse, with no throttling, and the results were good and were as follows on the audit report: 
+
+| Performance | Accessibility | Best Practices | SEO |
+| :---------: | :------------:|:--------------:|:---:|
+| 98      | 100    | 100          | 89  |
+
 # Testing User Stories from User Experience (UX) Section
 # First Time Visitor Goals
   i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the game it self .
