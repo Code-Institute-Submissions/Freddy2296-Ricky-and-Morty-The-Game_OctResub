@@ -97,4 +97,87 @@ var cardsArray = [
     card.appendChild(back);
   });
   
+  var match = function match() {
+    var selected = document.querySelectorAll('.selected');
+    selected.forEach(function (card) {
+      card.classList.add('match');
+    });
+  };
+  
+  var resetGuesses = function resetGuesses() {
+    firstGuess = '';
+    secondGuess = '';
+    count = 0;
+    previousTarget = null;
+  
+    var selected = document.querySelectorAll('.selected');
+    selected.forEach(function (card) {
+      card.classList.remove('selected');
+    });
+  };
+
+  grid.addEventListener('click', function (event) {
+  
+    var clicked = event.target;
+  
+    if (clicked.nodeName === 'SECTION' || clicked === previousTarget || clicked.parentNode.classList.contains('selected') || clicked.parentNode.classList.contains('match')) {
+      
+      
+      return;
+
+
+
+      
+    }
+
+    if (count < 2) {
+      count++;
+      //moveCounter();
+      if (count === 1) {
+        firstGuess = clicked.parentNode.dataset.name;
+        console.log(firstGuess);
+        clicked.parentNode.classList.add('selected');
+        moveCounter();
+        
+      } else {
+        secondGuess = clicked.parentNode.dataset.name;
+        console.log(secondGuess);
+        clicked.parentNode.classList.add('selected');
+       
+
+      
+      }
+  
+      if (firstGuess && secondGuess) {
+        if (firstGuess === secondGuess) {
+          setTimeout(match, delay);
+          matchs ++;
+          if(intfailed<=10){
+            ptotal=ptotal+points1;
+            score.innerHTML = "SCORE:" + ptotal;
+          }
+          else{
+            if(intfailed>10 && intfailed <=20){
+              ptotal=ptotal+points2;
+              score.innerHTML = "SCORE:" + ptotal;
+            }
+            else{
+              ptotal=ptotal+points3;
+              score.innerHTML = "SCORE:" + ptotal;
+            }
+          }
+          if(matchs==matchsTotales){
+            stopTimer();
+          }
+         } 
+            
+        setTimeout(resetGuesses, delay);
+        intfailed++;
+      }
+      previousTarget = clicked;
+    }
+
+  });
+
+  
   
