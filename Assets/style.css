@@ -1,0 +1,30 @@
+h1{ 
+	font-family: 'Creepster', cursive;
+	color: aqua;
+	text-align: center;
+}
+
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p{
+	color: aqua;
+	text-align: center;
+	
+}
+body {
+  margin: 20px 0;
+  background:black;
+  color: aqua;
+  text-align: center;
+}
+
+div{
+	color: aqua;
+	text-align: center;
+}
