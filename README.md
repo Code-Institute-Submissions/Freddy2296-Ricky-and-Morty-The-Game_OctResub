@@ -51,8 +51,15 @@ images.
 # Technologies Used
 ## Languages Used
 * HTML5
+ *  This project uses HTML to structure the content of the website.
+
+
 * CSS3
-* Javascript
+  * The project uses CSS to add additional styling to the site and refine responsive beahviour using media queries.
+
+* JavaScript
+  * The project uses JavaScript to add and remove content dynamically and to initialise Materialize components.
+
 
 # Frameworks, Libraries & Programs Used
 * Bootstrap 4.4.1:
