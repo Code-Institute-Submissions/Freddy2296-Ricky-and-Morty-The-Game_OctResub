@@ -203,4 +203,24 @@ function stopTimer(){
     timer.innerHTML = minute+"mins "+second+"secs";
     endGame();
 }
+
+function moveCounter(){
+    moves++;
+    console.log(moves);
+    counter.innerHTML = moves;
+    //start timer on first move
+    if(moves == 1){
+        second = 0;
+        minute = 0; 
+        hour = 0;
+        startTimer();
+        
+  
+  
+  
+  
+  
+        
+    }
+  }
   
