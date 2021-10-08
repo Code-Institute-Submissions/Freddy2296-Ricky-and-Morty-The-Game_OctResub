@@ -28,9 +28,9 @@ I just wanted to create a game I can enjoy myself and share with people with who
 
 This site was built on the basis of ideas from initial wireframes created in Adobe XD and exported image files for these can be seen below. These image files as well as the XD project file can be found in the main project folder:
 
-![wireframe prototype 1](assets/register_page.png)
+![wireframe prototype 1](Document/home_page.png)
 
-![wireframe prototype 1](assets/home_page.png)
+![wireframe prototype 1](assets/end_page.png)
 
 ## Design 
 
