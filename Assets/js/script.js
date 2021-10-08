@@ -51,7 +51,8 @@ var cardsArray = [
     },
   ];
  
-  
+
+
   var gameGrid = cardsArray.concat(cardsArray).sort(function () {
     return 0.5 - Math.random();
   });
@@ -75,7 +76,7 @@ var cardsArray = [
   var grid = document.createElement('section');
   grid.setAttribute('class', 'grid');
   game.appendChild(grid);
-
+  
   gameGrid.forEach(function (item) {
     var name = item.name,
         img = item.img;
@@ -115,7 +116,7 @@ var cardsArray = [
       card.classList.remove('selected');
     });
   };
-
+  
   grid.addEventListener('click', function (event) {
   
     var clicked = event.target;
@@ -179,7 +180,9 @@ var cardsArray = [
 
   });
 
-  var second = 0;
+  
+  
+var second = 0;
 var minute = 0; 
 var hour = 0;
 var timer = document.querySelector(".timer");
@@ -205,26 +208,27 @@ function stopTimer(){
 }
 
 function moveCounter(){
-    moves++;
-    console.log(moves);
-    counter.innerHTML = moves;
-    //start timer on first move
-    if(moves == 1){
-        second = 0;
-        minute = 0; 
-        hour = 0;
-        startTimer();
-        
-  
-  
-  
-  
-  
-        
-    }
-  }
+  moves++;
+  console.log(moves);
+  counter.innerHTML = moves;
+  //start timer on first move
+  if(moves == 1){
+      second = 0;
+      minute = 0; 
+      hour = 0;
+      startTimer();
+      
 
-  function startGame (){
+
+
+
+
+      
+  }
+}
+
+
+function startGame (){
     cards = shuffle(cards); 
     score.innerHTML = "SCORE: 0"; 
     // remove all existing classes from each card
@@ -236,27 +240,27 @@ function moveCounter(){
        cards[i].classList.remove("show", "open", "match", "disabled");
       }
           
-  // reset moves
-  moves = 0;
-  matchs = 0;
-  intfailed = 0;
-  ptotal = 0;
-  counter.innerHTML = moves;
- //reset timer
- var timer = document.querySelector(".timer");
- timer.innerHTML = "0 mins 0 secs";
+    // reset moves
+    moves = 0;
+    matchs = 0;
+    intfailed = 0;
+    ptotal = 0;
+    counter.innerHTML = moves;
+   //reset timer
+   var timer = document.querySelector(".timer");
+   timer.innerHTML = "0 mins 0 secs";
 
 }
+ function endGame(){
+  if (confirm('CONGRATULATIONS! YOU WIN!! \nSCORE TOTAL='+ptotal+'\nDo you want to play again?')) {
+    // start Again and refresh
+    location.reload(true);
+  } else {
+    // Do nothing!
+  }
+   
+ }
 
-function endGame(){
-    if (confirm('CONGRATULATIONS! YOU WIN!! \nSCORE TOTAL='+ptotal+'\nDo you want to play again?')) {
-      // start Again and refresh
-      location.reload(true);
-    } else {
-      // Do nothing!
-    }
-     
-   }
-  
-  
+
+
   
